@@ -1,0 +1,13 @@
+{
+  "name": "googlesheets-appendrow",
+  "version": "1.0.0",
+  "description": "Extension to append a row to a Google Sheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "googleapis": "^92.0.0",
+    "redis": "^4.0.0"
+  }
+}
