@@ -1,0 +1,13 @@
+{
+  "name": "github-create-pull-request",
+  "version": "1.0.0",
+  "description": "Extension to create a new pull request on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "redis": "^4.3.1",
+    "@octokit/rest": "^19.0.7"
+  }
+}
