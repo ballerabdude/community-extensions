@@ -1,0 +1,13 @@
+{
+  "name": "github-issuetoextensionspec",
+  "version": "1.0.0",
+  "description": "Extension to process GitHub issue webhooks and generate extension_spec",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "redis": "^4.3.1",
+    "dotenv": "^16.0.3"
+  }
+}
